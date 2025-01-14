@@ -1,0 +1,57 @@
+html{
+    --padding-primary:40px;
+}
+.font-96{
+    font-size: 48px !important;
+}
+.font-40{
+    font-size:28px !important;
+}
+h1{
+    font-size: 48px;
+}
+.design-section .design-section-1{
+    min-height: 300px;
+}
+.design-section .design-section-2{
+    margin-top: -200px;
+}
+/* Home CSS */
+
+.features-boxes{
+    /* grid-template-columns: repeat(2,1fr); */
+    gap:20px;
+}
+.pracetice-area-stamp{
+    right:0;
+    top:0; 
+}
+#services-section .services{
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.featured-logos{
+    grid-template-columns: repeat(3,1fr);
+}
+.playlist.slider {
+    height: 600px;
+}
+/* Customer Portal */
+.customer-portal-section{
+    grid-template-columns: 1fr 2fr;
+}
+.step-check{
+    width:35px;
+    height: 35px;
+}
+.step-line-small{
+    width: 3em;
+}
+
+.interested-attorney-image{
+    border-right:none;
+    border-bottom:2px solid var(--color-primary);
+    padding-right:0px;
+    margin-right:0px;
+    margin-bottom:20px;
+}
